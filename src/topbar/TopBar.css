@@ -1,0 +1,42 @@
+.top {
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.topLeft {
+  flex: 3;
+  background-color: green;
+  height: 100%;
+}
+
+.topCenter {
+  flex: 6;
+  background-color: white;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.topRight {
+  flex: 3;
+  background-color: red;
+  height: 100%;
+}
+.topList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
